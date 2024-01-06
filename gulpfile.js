@@ -15,7 +15,7 @@ gulp.task('projectserver', function () {
 });
 
 gulp.task('projectstyles', function () {
-    return gulp.src("src/sass/*.+(scss|sass)")
+    return gulp.src("src/sass/**/*.+(scss|sass)")
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         .pipe(rename({
             prefix: "",
@@ -28,7 +28,7 @@ gulp.task('projectstyles', function () {
 });
 
 gulp.task('projectwatch', function (){
-    gulp.watch("src/sass/*.+(scss|sass)", gulp.parallel("projectstyles"));
+    gulp.watch("src/sass/**/*.+(scss|sass)", gulp.parallel("projectstyles"));
     gulp.watch("src/*.html").on("change", browserSync.reload);
 });
 
