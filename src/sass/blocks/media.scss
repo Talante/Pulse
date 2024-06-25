@@ -1,0 +1,163 @@
+@media (max-width : 991px) {
+    .advantages {
+        &__icons {
+            width: 100%;
+        }
+    }
+    .consultation {
+        .title {
+            &__left {
+                font-size: 31px;
+            }
+        }
+    }
+    .carousel {
+        &__img {
+            height: 400px;
+        }
+    }
+    .catalog {
+        .catalog-item {
+            width: 31%;
+            
+            &__price {
+                font-size: 16px;
+            }
+        .button_mini {
+            width: 100px;
+        }
+        }
+    }
+}
+
+
+@media (max-width : 767px) {
+    .advantages {
+        &__icons {
+            width: 100%;
+        }
+        
+    }
+    .consultation {
+        .title {
+            &__left {
+                font-size: 23px;
+            }
+        }
+    }
+    .carousel {
+        &__img {
+            height: 250px;
+        }
+    }
+    .catalog {
+        .catalog-item {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width : 575px) {
+
+    .header {
+    
+        &__logo {
+            margin-left: 20px;
+            width: 350px;
+        }
+            img {
+                width: 70%
+            }
+
+        &__official {
+            display: none;
+        }
+        &__official span {
+            font-size: 14px;
+        }
+
+        &__phone {
+            font-size: 16px;
+        }
+    }
+    .button {
+        width: 140px;
+        &_submit {
+            width: 100%;
+        }
+        &__main {
+            width: 200px;
+            height: 50px;
+            font-size: 12px
+        }
+    }
+
+    .promo {
+        &__header {
+            font-size: 24px;
+        }
+        &__subheader {
+            font-size: 14px;
+        }
+        &__icons {
+            
+            margin-right: -7px;
+            width: 315px
+        }
+    }
+    .advantages {
+        
+        &__icons {
+            flex-direction: column;
+            margin: 60px 0px;
+            
+        }
+        .title {
+            font-size: 28px;
+        }
+    }
+    .consultation {
+        .title {
+            font-size: 20px
+        }
+        .button_submit {
+            font-size: 16px;
+            width: 100%
+        }
+        
+    }
+    .carousel {
+        &__img {
+            height: 200px;
+        }
+        .prev {
+            left: 16px;
+        }
+    }
+    .catalog {
+        &__content {
+            margin: 0 120px;
+        }
+        &__text {
+            font-size: 12px;
+        }
+    }
+    footer {
+        .footer {
+            &__info {
+                width: 100%;
+            }
+        }
+    }
+    .overlay {
+        .modal {
+            &__close {
+                right: -22px;
+            }
+        }
+        
+    }
+    }
+
+
+
